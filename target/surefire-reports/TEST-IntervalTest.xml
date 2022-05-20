@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="IntervalTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="IntervalTest" time="0.061" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -20,7 +20,7 @@
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="17+35-LTS-2724"/>
     <property name="os.arch" value="amd64"/>
-    <property name="visualvm.id" value="7307255448400"/>
+    <property name="visualvm.id" value="7621518674600"/>
     <property name="java.io.tmpdir" value="C:\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -61,10 +61,10 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="IntervalTest" name="shouldAddDisjoinedIntervals" time="0.005"/>
+  <testcase classname="IntervalTest" name="shouldAddDisjoinedIntervals" time="0.006"/>
   <testcase classname="IntervalTest" name="shouldAddOverlappingIntervals" time="0"/>
   <testcase classname="IntervalTest" name="shouldHandleNullOrEmptyIntervals" time="0"/>
   <testcase classname="IntervalTest" name="shouldHandleMixedIntervals" time="0"/>
   <testcase classname="IntervalTest" name="shouldAddAdjacentIntervals" time="0"/>
-  <testcase classname="IntervalTest" name="shouldHandleRandomIntervals" time="0"/>
+  <testcase classname="IntervalTest" name="shouldHandleRandomIntervals" time="0.055"/>
 </testsuite>
